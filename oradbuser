@@ -1,0 +1,4 @@
+Cmnd_Alias ORADB = /usr/bin/sudo -u oradb -i, /usr/bin/sudo -iu oraem, /bin/bash, /bin/mkdir, /bin/chmod, /usr/bin/chown, /usr/bin/su - oradb
+Defaults   visiblepw
+
+%dbaadminstest ALL=(ALL) NOPASSWD:  ORADB
